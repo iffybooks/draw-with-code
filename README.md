@@ -6,14 +6,23 @@ Here's how it works: The user types lines of code to control a cursor onscreen, 
 
 We'll be using Python, a programming language that comes preinstalled with many computer operating systems. Python is really cool! It's relatively easy to learn, and it's used widely by scientists, web developers, hackers, and just about everyone else.
 
-We'll be focusing on `turtle`, a module that comes built-in with Python.
+In this workshop we'll be focusing on **turtle**, a module that comes built-in with Python.
 
-We'll also use IDLE, a program that lets you write a block of code and run it repeatedly.
+We'll also use **IDLE**, a program that lets you write and run Python code.
 
-At the Iffy Books computer lab we're using the Linux-based operating system Ubuntu. 
+At the Iffy Books computer lab we're using the Linux-based operating system **Ubuntu**. If you're getting started at home, skip to the section at the end titled <u>Using Python Turtle at Home</u>.
 
 
 
+❏ Start by opening a **terminal** window. Click the square icon at the bottom left corner of the screen and search for "terminal," or click the terminal icon in the application bar.
+
+[two images ^]
+
+
+
+
+
+Open the
 
 idle
 
@@ -32,12 +41,6 @@ clear()
 
 forward(100)
 left(90)
-
-
-
-
-
-
 
 ## Notes
 
@@ -98,6 +101,22 @@ Draw a yellow banana
 Draw a randomized night sky with shooting stars
 
 Draw a tree with a random shape
+
+
+
+
+
+
+
+
+
+## Using Python Turtle at Home
+
+
+
+
+
+
 
 Updated August 22, 2023
 
