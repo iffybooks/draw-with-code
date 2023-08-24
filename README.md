@@ -2,11 +2,18 @@
 
 Python Turtle is a drawing tool based on Logo, a programming language developed in the 1960s to teach programming to kids. Logo was used widely in school computer labs in the '80s and '90s.
 
-Here's how it works: The user types lines of code to control a cursor onscreen, typically represented as a turtle.
+Here's how it works: The user types lines of code to control a cursor onscreen, typically represented as a turtle. The turtle can draw lines and curves as it walks around, creating geometric art. The next step is to add a loop to your code, letting you repeat the instructions as many times as you want.
 
- move around 
+We'll be using Python, a programming language that comes preinstalled with many computer operating systems. Python is really cool! It's relatively easy to learn, and it's used widely by scientists, web developers, hackers, and just about everyone else.
 
-little turtle walk around onscreen. The turtle can draw lines and curves as it goes, creating cool geometric art. Once you’ve drawn a picture, you can add a loop to your code to repeat it as many times as you want. Whether you’re new to programming or you have decades of experience, you’ll be able to have fun with Python Turtle.
+We'll be focusing on `turtle`, a module that comes built-in with Python.
+
+We'll also use IDLE, a program that lets you write a block of code and run it repeatedly.
+
+At the Iffy Books computer lab we're using the Linux-based operating system Ubuntu. 
+
+
+
 
 idle
 
