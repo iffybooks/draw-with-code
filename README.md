@@ -12,6 +12,8 @@ We'll also use **IDLE**, a program that lets you write and run Python code.
 
 At the Iffy Books computer lab we're using the Linux-based operating system **Ubuntu**. If you're getting started on your home computer, skip ahead to the section titled **<u>Using Python Turtle at Home</u>**. Once **Python 3**, **IDLE**, and **Tkinter** are installed, you can resume here.
 
+## ➡️ Open IDLE
+
 ❏ Start by opening the **terminal** application. Click the grid icon at the bottom left corner of the screen and search for "terminal," or click the terminal icon in the application bar.
 
 ![](images/2023-08-24-22-08-25-image.png)
@@ -22,7 +24,11 @@ At the Iffy Books computer lab we're using the Linux-based operating system **Ub
 idle
 ```
 
-If you're using macOS, you may need to use the command `idle3`instead.
+↳ If you're using macOS, you may need to use the command `idle3`instead.
+
+[Image of IDLE open]
+
+## ➡️ First Steps
 
 ❏ In the Idle command prompt, type the following command and press **enter**. Nothing will happen, which is normal. You've just imported a collection of tools from the `turtle` module.
 
@@ -48,21 +54,61 @@ forward(100)
 left(90)
 ```
 
+❏ Now make it walk forward another 100 steps:
+
+```
+forward(100)
+```
+
 ❏ If you want to reset everything and go back to the beginning, you can use `reset()`.
 
 ```
 reset()
 ```
 
-### Mini challenge 1:
+### 🐢 Mini challenge 1
 
-Draw a square
+**❏ *Draw a square.***
 
-### Mini challenge 2:
+### 🐢 Mini challenge 2
 
-Draw an equilateral triangle (same length on all three sides)
+**❏ *Draw an equilateral triangle (all three sides the same length).***
 
-❏
+If you're at an in-person workshop and you need help, try asking the person next to you.
+
+
+
+## ➡️ Pen Up and Pen Down
+
+
+
+```
+penup()
+```
+
+
+
+```
+pendown()
+```
+
+
+
+
+
+### 🐢 Mini challenge 3
+
+Make a robot face.
+
+
+
+## ➡️ Pen Up and Pen Down
+
+
+
+
+
+
 
 ## Notes
 
