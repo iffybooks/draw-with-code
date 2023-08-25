@@ -42,7 +42,7 @@ from turtle import *
 shape('turtle')
 ```
 
-❏ Run this command to make the turtle walk forward 100 steps:
+❏ Run this command to make the turtle walk forward 100 steps, leaving a line behind it:
 
 ```
 forward(100)
@@ -76,53 +76,42 @@ reset()
 
 If you're at an in-person workshop and you need help, try asking the person next to you.
 
-
-
 ## ➡️ Pen Up and Pen Down
 
+So far your turtle has been in **pen down** mode, which means it draws a line wherever it goes. Next you'll learn to toggle between **pen up** and **pen down** modes, as well as how to draw **circles**.
 
+❏ Run the `reset()` command to clear the canvas.
+
+```
+reset()
+```
+
+❏ Run the following command to make a circle with radius 30.
+
+```
+circle(30)
+```
+
+❏ Now run the following commands one at a time and watch what happens. The `penup()` function 
 
 ```
 penup()
-```
-
-
-
-```
+forward(100)
 pendown()
+circle(50)
 ```
 
+❏ 
+
+### 🐢 Mini challenge
+
+**❏ *Make a silly robot face.***
 
 
 
+## ➡️ Switch to text editor
 
-### 🐢 Mini challenge 3
-
-Make a robot face.
-
-
-
-## ➡️ Pen Up and Pen Down
-
-
-
-
-
-
-
-## Notes
-
-Pen up move over
-
-Pen down
-
-Draw circle
-
-clear()
-
-reset()
-
-quit() in python repl
+## ➡️ Add color
 
 Switch to idle
 
@@ -178,7 +167,6 @@ Ubuntu setup steps:
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install idle
-sudo apt-get install python3-tk
 ```
 
 Updated August 22, 2023
