@@ -1,6 +1,6 @@
 ![](Front_Cover.png)
 
-Python Turtle is a drawing tool based on Logo, a programming language developed in the 1960s to teach programming to kids. Logo was used widely in school computer labs in the '80s and '90s.
+# Python Turtle is a drawing tool based on Logo, a programming language developed in the 1960s to teach programming to kids. Logo was used widely in school computer labs in the '80s and '90s.
 
 Here's how it works: The user types lines of code to control a cursor onscreen, typically represented as a turtle. The turtle can draw lines and curves as it walks around, creating geometric art. The next step is to add a loop to your code, letting you repeat the instructions as many times as you want.
 
@@ -10,37 +10,59 @@ In this workshop we'll be focusing on **turtle**, a module that comes built-in w
 
 We'll also use **IDLE**, a program that lets you write and run Python code.
 
-At the Iffy Books computer lab we're using the Linux-based operating system **Ubuntu**. If you're getting started at home, skip to the section at the end titled <u>Using Python Turtle at Home</u>.
+At the Iffy Books computer lab we're using the Linux-based operating system **Ubuntu**. If you're getting started on your home computer, skip ahead to the section titled **<u>Using Python Turtle at Home</u>**. Once **Python 3**, **IDLE**, and **Tkinter** are installed, you can resume here.
 
+❏ Start by opening the **terminal** application. Click the grid icon at the bottom left corner of the screen and search for "terminal," or click the terminal icon in the application bar.
 
+![](images/2023-08-24-22-08-25-image.png)
 
-❏ Start by opening a **terminal** window. Click the square icon at the bottom left corner of the screen and search for "terminal," or click the terminal icon in the application bar.
+❏ Type the following command into the terminal and press **enter** to launch **IDLE**. When it launches, you'll see a command prompt with three angle brackets (**>>>**) on the left side.
 
-[two images ^]
-
-
-
-
-
-Open the
-
+```
 idle
+```
 
-or
+If you're using macOS, you may need to use the command `idle3`instead.
 
-idle3
+❏ In the Idle command prompt, type the following command and press **enter**. Nothing will happen, which is normal. You've just imported a collection of tools from the `turtle` module.
 
+```
 from turtle import *
+```
 
+❏ Type the command below and press **enter**. You'll see a window pop up with a tiny turtle on a white background.
+
+```
 shape('turtle')
+```
 
+❏ Run this command to make the turtle walk forward 100 steps:
+
+```
 forward(100)
+```
 
-reset()
-clear()
+❏ Now use this one to make it turn left 90 degrees.
 
-forward(100)
+```
 left(90)
+```
+
+❏ If you want to reset everything and go back to the beginning, you can use `reset()`.
+
+```
+reset()
+```
+
+### Mini challenge 1:
+
+Draw a square
+
+### Mini challenge 2:
+
+Draw an equilateral triangle (same length on all three sides)
+
+❏
 
 ## Notes
 
@@ -102,21 +124,16 @@ Draw a randomized night sky with shooting stars
 
 Draw a tree with a random shape
 
-
-
-
-
-
-
-
-
 ## Using Python Turtle at Home
 
+Ubuntu setup steps:
 
-
-
-
-
+```
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install idle
+sudo apt-get install python3-tk
+```
 
 Updated August 22, 2023
 
