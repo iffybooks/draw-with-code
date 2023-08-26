@@ -44,13 +44,15 @@ from turtle import *
 shape('turtle')
 ```
 
-![Screenshot from 2023-08-25 21-42-33.png](images/4f6cd67c08d9fefc947bfde84e4684e321e6b6b7.png)
+<img title="" src="images/4f6cd67c08d9fefc947bfde84e4684e321e6b6b7.png" alt="Screenshot from 2023-08-25 21-42-33.png" width="399" data-align="center">
 
 ❏ Run this command to make the turtle walk forward 100 steps, leaving a line behind it:
 
 ```
 forward(100)
 ```
+
+<img title="" src="images/06b93123838e60767370807899c6ae6330521f70.png" alt="Screenshot from 2023-08-25 21-58-58.png" width="384" data-align="center">
 
 ❏ Now use this one to make it turn left 90 degrees.
 
@@ -82,8 +84,6 @@ reset()
 
 **❏ *Draw an equilateral triangle (all three sides the same length).***
 
- 
-
 ## ➡️ Pen Up and Pen Down
 
 So far your turtle has been in **pen down** mode, which means it draws a line wherever it goes. Next you'll learn to use **pen up** mode to move around without leaving a mark. You'll also learn to draw **circles**.
@@ -111,45 +111,98 @@ circle(50)
 
 ### 🐢 Mini challenge
 
-**❏ *Draw a series of shrinking circles. If you make a mistake, you can use `reset()` to clear the canvas.***
+**❏ *Draw a series of circles that get smaller from left to right. If you make a mistake, you can use `reset()` to clear the canvas.***
 
 <img title="" src="images/dacb6abee0c9a1bc835c77ddbe3c3133a2fa3fd4.png" alt="Shrinking_Circles.png" width="446" data-align="center">
 
-## ➡️ Switch to text editor
+## ➡️ Start editing a .py file
 
-So far you've been running one line of code at a time, which is a good way to learn the basics. In order to write a block of code and run it all at once, you'll need to create a file. 
+So far you've been running one line of code at a time, which is a good way to learn the basics. The next step is to write several lines of code and run them all at once. To do that, you'll need to store your code in a **.py** file.
 
 ❏ In the toolbar, go to **File > New File**.
 
 ![Screenshot from 2023-08-25 22-41-34.png](images/700665ce0b9dffc8716c533cec832d7389a7e9aa.png)
 
-![Screenshot from 2023-08-25 22-41-48.png](images/bb3bf5fc24caf634353fa09a68996afea73e3781.png)
+❏ A new text editor window will pop up. Type the lines below, then select **Run > Run Module** in the toolbar.
 
-![Screenshot from 2023-08-25 22-42-22.png](images/25f050789ff26af532265df87fbc6ace9d4a6cea.png)
+```
+from turtle import *
+shape('turtle')
+forward(100)
+```
 
-![Screenshot from 2023-08-25 22-43-19.png](images/9ea3eb58cf31c3c8602b66c6f7c8337b8b87891a.png)
+<img src="images/9ea3eb58cf31c3c8602b66c6f7c8337b8b87891a.png" title="" alt="Screenshot from 2023-08-25 22-43-19.png" data-align="center">
 
-![Screenshot from 2023-08-25 22-43-27.png](images/191cb09a5570ccd59838f78382786bba4207ed6a.png)
+❏ You'll be prompted to save your file before running it. Click **OK**.
 
-![Screenshot from 2023-08-25 22-44-01.png](images/b81d85281587d1f090b47c8bda225a16ae6e8a41.png)
+<img src="images/191cb09a5570ccd59838f78382786bba4207ed6a.png" title="" alt="Screenshot from 2023-08-25 22-43-27.png" data-align="center">
 
-![Screenshot from 2023-08-25 22-44-20.png](images/5f5ef33a2226e16a48ebcc6a2ae95a7e34d1166c.png)
+❏ Choose a filename and save your **.py** file somewhere memorable.
 
-![Screenshot from 2023-08-25 22-44-33.png](images/a403134eee1671952eed384810da22bfdf0df14f.png)
+<img src="images/b81d85281587d1f090b47c8bda225a16ae6e8a41.png" title="" alt="Screenshot from 2023-08-25 22-44-01.png" data-align="center">
+
+Once your file is saved, your turtle drawing will get started. 
+
+<img title="" src="images/5f5ef33a2226e16a48ebcc6a2ae95a7e34d1166c.png" alt="Screenshot from 2023-08-25 22-44-20.png" width="304" data-align="center">
+
+Note that there's some text output in the IDLE shell window where you were typing commands earlier. If you get an error, you can check this window for details.
+
+<img title="" src="images/a403134eee1671952eed384810da22bfdf0df14f.png" alt="Screenshot from 2023-08-25 22-44-33.png" width="309" data-align="center">
 
 ## ➡️ Change Colors & Line Width
 
-- set width
+```
+from turtle import *
+shape('turtle')
+width(5)
 
-- clear and reset at beginning
+circle(200)
+```
 
-Redraw the same shapes, but adjust thickness and color them in
+```
+from turtle import *
+shape('turtle')
+width(5)
+color('purple')
 
-## ➡️ Loop
+circle(200)
+```
 
-Use a loop to draw 20ish squares overlapping in a circular pattern
+```
+from turtle import *
+shape('turtle')
+width(5)
+color('purple')
+fillcolor('pink')
 
-Choose random colors for rectangles
+begin_fill()
+circle(200)
+end_fill()
+```
+
+## ➡️ Use a for loop
+
+```
+for i in range(25):
+    begin_fill()
+    circle(50-i)
+    end_fill()
+```
+
+```
+for i in range(25):
+    begin_fill()
+    circle(150-(i*5))
+    end_fill()
+```
+
+### 🐢 Mini challenge
+
+**❏** ***Use a for loop with `penup()` and `pendown()` to make a dotted line.***
+
+### 🐢 Mini challenge
+
+**❏** ***Use a for loop to draw repeated shapes at a range of different angles.***
 
 ## ➡️ An Example with Random Numbers
 
@@ -159,33 +212,35 @@ Choose random colors for rectangles
 
 [concentric circles]
 
-## ➡️ Read More
+## 
 
 ## ➡️ More Challenges
 
-Draw a pentagon
+❏ Draw a pentagon
 
-Draw an n-sided polygon
+❏ Draw an n-sided polygon
 
-Draw a 5-sided star
+❏ Draw a 5-sided star
 
-Draw an n-sided star
+❏ Draw an n-sided star
 
-Draw a flower
+❏ Draw a flower
 
-Draw a flower with n petals
+❏ Draw a flower with n petals
 
-Draw a house
+❏ Draw a house
 
-Draw a happy robot
+❏ Draw a happy robot
 
-Write your name in cursive
+❏ Draw a worm
 
-Draw a worm
+❏ Write your name in cursive
 
-Draw a randomized night sky with shooting stars
+❏ Draw a randomized night sky with shooting stars
 
-Draw a tree with random details
+❏ Draw a tree with random details
+
+## ➡️ Read More
 
 ## ➡️ Using Python Turtle at Home
 
@@ -198,6 +253,8 @@ sudo apt-get install idle
 ```
 
 **Updated August 25, 2023**
+
+You can find the latest version of this zine at the following URL: https://github.com/iffybooks/draw-with-code
 
 Follow us on Mastodon!
 
