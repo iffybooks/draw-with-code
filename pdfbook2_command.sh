@@ -5,7 +5,7 @@
 sleep 0.1
 
 pdfbook2 --paper=letterpaper --short-edge \
---outer-margin=30 --inner-margin=20 --top-margin=40 --bottom-margin=40 README.pdf
+--outer-margin=30 --inner-margin=60 --top-margin=30 --bottom-margin=40 README.pdf
 
 
 

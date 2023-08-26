@@ -16,27 +16,31 @@ At the Iffy Books computer lab we're using the Linux-based operating system **Ub
 
 ❏ Start by opening the **terminal** application. Click the grid icon at the bottom left corner of the screen and search for "terminal," or click the terminal icon in the application bar.
 
-![](images/2023-08-24-22-08-25-image.png)
+<img title="" src="images/2023-08-24-22-08-25-image.png" alt="" data-align="center" width="341">
 
-❏ Type the following command into the terminal and press **enter** to launch **IDLE**. When it launches, you'll see a command prompt with three angle brackets (**>>>**) on the left side.
 
-```
-idle
-```
+
+❏ Type `idle` in the terminal and press **enter** to launch **IDLE**. 
 
 ↳ If you're using macOS, you may need to use the command `idle3`instead.
 
-<img title="" src="images/e8dd325904a00f351cb85346aaf8b84f38dcc15c.png" alt="Screenshot from 2023-08-25 21-41-55.png" width="465" data-align="center">
+When IDLE launches, you'll see a command prompt with three angle brackets (**>>>**) on the left side.
+
+<img title="" src="images/e8dd325904a00f351cb85346aaf8b84f38dcc15c.png" alt="Screenshot from 2023-08-25 21-41-55.png" width="431" data-align="center">
+
+## 
 
 ## ➡ First Steps
 
-❏ In the Idle command prompt, type the following command and press **enter**. Nothing will happen, which is normal. You've just imported a collection of tools from the `turtle` module.
+❏ In the Idle command prompt, type the following command and press **enter**. Nothing will happen, which is normal. 
 
 ```
 from turtle import *
 ```
 
-![](images/2023-08-25-23-43-05-image.png)
+You've just imported a collection of functions from the `turtle` module, which we'll be using for the rest of this workshop.
+
+<img title="" src="images/2023-08-25-23-43-05-image.png" alt="" data-align="center" width="539">
 
 ❏ Type the command below and press **enter**. You'll see a window pop up with a tiny turtle on a white background.
 
@@ -44,9 +48,9 @@ from turtle import *
 shape('turtle')
 ```
 
-<img title="" src="images/4f6cd67c08d9fefc947bfde84e4684e321e6b6b7.png" alt="Screenshot from 2023-08-25 21-42-33.png" width="399" data-align="center">
+<img title="" src="images/4f6cd67c08d9fefc947bfde84e4684e321e6b6b7.png" alt="Screenshot from 2023-08-25 21-42-33.png" width="400" data-align="center">
 
-❏ Run this command to make the turtle walk forward 100 steps, leaving a line behind it:
+❏ Run this command to make the turtle walk forward 100 steps, leaving a line behind it as it goes:
 
 ```
 forward(100)
@@ -54,13 +58,13 @@ forward(100)
 
 <img title="" src="images/06b93123838e60767370807899c6ae6330521f70.png" alt="Screenshot from 2023-08-25 21-58-58.png" width="384" data-align="center">
 
-❏ Now use this one to make it turn left 90 degrees.
+❏ Now use the `left()` function to make your turtle turn left 90 degrees.
 
 ```
 left(90)
 ```
 
-❏ Now make it walk forward another 100 steps:
+❏ Walk forward another 100 steps with `forward()`.
 
 ```
 forward(100)
@@ -71,8 +75,6 @@ forward(100)
 ```
 reset()
 ```
-
-### 🔎 What will happen?
 
 ❏ Try using `right(90)` and `back(100)` and see what happens. Now try `right(360)` and `back(600)`.
 
@@ -94,13 +96,13 @@ So far your turtle has been in **pen down** mode, which means it draws a line wh
 reset()
 ```
 
-❏ Run the following command to make a circle with radius 30.
+❏ Now run the following command to draw a circle with radius 30.
 
 ```
 circle(30)
 ```
 
-❏ Now run the following commands one at a time and watch what happens:
+❏ Run the following commands one at a time and watch what happens:
 
 ```
 penup()
@@ -121,7 +123,7 @@ So far you've been running one line of code at a time, which is a good way to le
 
 ❏ In the toolbar, go to **File > New File**.
 
-![Screenshot from 2023-08-25 22-41-34.png](images/700665ce0b9dffc8716c533cec832d7389a7e9aa.png)
+<img title="" src="images/700665ce0b9dffc8716c533cec832d7389a7e9aa.png" alt="Screenshot from 2023-08-25 22-41-34.png" data-align="center" width="509">
 
 ❏ A new text editor window will pop up. Type the lines below, then select **Run > Run Module** in the toolbar.
 
@@ -131,17 +133,17 @@ shape('turtle')
 forward(100)
 ```
 
-<img src="images/9ea3eb58cf31c3c8602b66c6f7c8337b8b87891a.png" title="" alt="Screenshot from 2023-08-25 22-43-19.png" data-align="center">
+<img title="" src="images/9ea3eb58cf31c3c8602b66c6f7c8337b8b87891a.png" alt="Screenshot from 2023-08-25 22-43-19.png" data-align="center" width="496">
 
 ❏ You'll be prompted to save your file before running it. Click **OK**.
 
-<img src="images/191cb09a5570ccd59838f78382786bba4207ed6a.png" title="" alt="Screenshot from 2023-08-25 22-43-27.png" data-align="center">
+<img title="" src="images/191cb09a5570ccd59838f78382786bba4207ed6a.png" alt="Screenshot from 2023-08-25 22-43-27.png" data-align="center" width="245">
 
 ❏ Choose a filename and save your **.py** file somewhere memorable.
 
-<img src="images/b81d85281587d1f090b47c8bda225a16ae6e8a41.png" title="" alt="Screenshot from 2023-08-25 22-44-01.png" data-align="center">
+<img title="" src="images/b81d85281587d1f090b47c8bda225a16ae6e8a41.png" alt="Screenshot from 2023-08-25 22-44-01.png" data-align="center" width="369">
 
-Once your file is saved, your turtle drawing will get started. 
+Once your file is saved, your turtle drawing will get started.
 
 <img title="" src="images/5f5ef33a2226e16a48ebcc6a2ae95a7e34d1166c.png" alt="Screenshot from 2023-08-25 22-44-20.png" width="304" data-align="center">
 
@@ -190,9 +192,9 @@ circle(200)
 end_fill()
 ```
 
-<img title="" src="images/092c5a9c4d1a38c0aa14af88b668872a91aa4441.png" alt="Screenshot from 2023-08-26 00-25-11.png" width="369" data-align="center">
+<img title="" src="images/092c5a9c4d1a38c0aa14af88b668872a91aa4441.png" alt="Screenshot from 2023-08-26 00-25-11.png" width="400" data-align="center">
 
-❏ To set the background color, you can use the `bgcolor()` function.
+❏ To set the background color for the whole canvas, you can use the `bgcolor()` function.
 
 ```
 bgcolor('orange')
@@ -202,7 +204,7 @@ bgcolor('orange')
 
 You can use a **for loop** to run the same piece of code as many times as you want.
 
-Here's what a for loop looks like in Python. The indented lines are inside the loop, and `range(25)` means they'll run 25 times. 
+Here's what a for loop looks like in Python. The line `for i in range(25):` starts the loop, and the **indented** lines underneath will run repeatedly. You can indent using a **tab** or **4 spaces**. The function `range(25)` specifies that the loop will run 25 times.
 
 ```
 for i in range(25):
@@ -211,11 +213,13 @@ for i in range(25):
     end_fill()
 ```
 
-The first time the loop runs, the variable `i` represents the number `0`. The second time it runs, `i` will be `2`, and so on. The code above draws a circle with radius `50-i` on each iteration, producing smaller and smaller circles.
+The first time this loop runs, the variable `i` will have the value `0`. The second time it runs, `i` will be `1`, etc. On the final iteration, `i` will equal `24`.
 
-<img title="" src="images/bd84f2f54f47e1bdcd041594eca1dbc96271f858.png" alt="Screenshot from 2023-08-26 00-32-40.png" width="499" data-align="center">
+The code above draws a circle with `50-i` (fifty minus i) as the radius value every time the for loop runs.
 
-❏ The code below is an update on the for loop above, starting with a radius of 150 and reducing the radius by `i*5` each iteration. (In Python, `*` is the multiplication symbol.)
+<img title="" src="images/bd84f2f54f47e1bdcd041594eca1dbc96271f858.png" alt="Screenshot from 2023-08-26 00-32-40.png" width="400" data-align="center">
+
+❏ The code below is an update on the for loop above, starting with a radius of 150 and reducing it by `i*5` on each iteration. (In Python, `*` is the multiplication symbol.)
 
 ```
 for i in range(25):
@@ -224,7 +228,7 @@ for i in range(25):
     end_fill()
 ```
 
-<img title="" src="images/df82ce36e5a151af806ac8e0f68dc59ce3f8f2ee.png" alt="Screenshot from 2023-08-26 00-37-25.png" width="539" data-align="center">
+<img title="" src="images/df82ce36e5a151af806ac8e0f68dc59ce3f8f2ee.png" alt="Screenshot from 2023-08-26 00-37-25.png" width="400" data-align="center">
 
 ### 🐢 Mini challenge
 
@@ -234,7 +238,7 @@ for i in range(25):
 
 **❏** ***Use a for loop to draw the same shape at a range of different angles.***
 
-<img title="" src="images/cfd95b4e813d9b53bd1732ed37844aee93c3cacb.png" alt="Screenshot from 2023-08-26 00-43-05.png" width="503" data-align="center">
+<img title="" src="images/cfd95b4e813d9b53bd1732ed37844aee93c3cacb.png" alt="Screenshot from 2023-08-26 00-43-05.png" width="400" data-align="center">
 
 ## ➡️ An Example with Random Numbers
 
@@ -262,7 +266,7 @@ for i in range(70):
         left(90)
 ```
 
-<img title="" src="images/0376a9da7f0495ab7cbaa451187d488730b523da.png" alt="Screenshot from 2023-08-26 01-13-28.png" width="506" data-align="center">
+<img title="" src="images/0376a9da7f0495ab7cbaa451187d488730b523da.png" alt="Screenshot from 2023-08-26 01-13-28.png" width="400" data-align="center">
 
 If you want your turtle to draw faster, You can add the `speed()` function at the beginning of your program. The maximum speed is `9`.
 
@@ -310,7 +314,7 @@ hideturtle()
 
 The code above uses a for loop to draw each square, starting with the line `for j in range(4):`. Note that this loop is inside another for loop, so the code inside it is double indented.
 
-<img title="" src="images/c6c23690acd2a07db8229dc671c21334834efa16.png" alt="Screenshot from 2023-08-26 01-17-32.png" width="581" data-align="center">
+<img title="" src="images/c6c23690acd2a07db8229dc671c21334834efa16.png" alt="Screenshot from 2023-08-26 01-17-32.png" width="480" data-align="center">
 
 ## 🐢 More Challenges
 
@@ -375,7 +379,7 @@ Coming soon!
 
 <div style="page-break-after: always;"></div>
 
-**Updated August 25, 2023**
+**Updated August 26, 2023**
 
 You can find the latest version of this zine at the following URL: https://github.com/iffybooks/draw-with-code
 
