@@ -10,15 +10,11 @@ We'll also use **IDLE**, a program that lets you write and run Python code.
 
 At the Iffy Books computer lab we're using the Linux-based operating system **Ubuntu**. If you're getting started on your home computer, skip ahead to the section titled **<u>Using Python Turtle at Home</u>**. Once **Python 3**, **IDLE**, and **Tkinter** are installed, you can resume here.
 
-<div style="page-break-after: always;"></div>
-
 ## ➡️ Open IDLE
 
 ❏ Start by opening the **terminal** application. Click the grid icon at the bottom left corner of the screen and search for "terminal," or click the terminal icon in the application bar.
 
-<img title="" src="images/2023-08-24-22-08-25-image.png" alt="" data-align="center" width="341">
-
-
+<img title="" src="images/2023-08-24-22-08-25-image.png" alt="" data-align="center" width="341"><br />
 
 ❏ Type `idle` in the terminal and press **enter** to launch **IDLE**. 
 
@@ -48,7 +44,9 @@ You've just imported a collection of functions from the `turtle` module, which w
 shape('turtle')
 ```
 
-<img title="" src="images/4f6cd67c08d9fefc947bfde84e4684e321e6b6b7.png" alt="Screenshot from 2023-08-25 21-42-33.png" width="400" data-align="center">
+<img title="" src="images/4f6cd67c08d9fefc947bfde84e4684e321e6b6b7.png" alt="Screenshot from 2023-08-25 21-42-33.png" width="315" data-align="center">
+
+<div style="page-break-after: always;"></div>
 
 ❏ Run this command to make the turtle walk forward 100 steps, leaving a line behind it as it goes:
 
@@ -56,7 +54,7 @@ shape('turtle')
 forward(100)
 ```
 
-<img title="" src="images/06b93123838e60767370807899c6ae6330521f70.png" alt="Screenshot from 2023-08-25 21-58-58.png" width="384" data-align="center">
+<img title="" src="images/06b93123838e60767370807899c6ae6330521f70.png" alt="Screenshot from 2023-08-25 21-58-58.png" width="315" data-align="center"><br />
 
 ❏ Now use the `left()` function to make your turtle turn left 90 degrees.
 
@@ -96,6 +94,8 @@ So far your turtle has been in **pen down** mode, which means it draws a line wh
 reset()
 ```
 
+<div style="page-break-after: always;"></div>
+
 ❏ Now run the following command to draw a circle with radius 30.
 
 ```
@@ -115,7 +115,7 @@ circle(50)
 
 **❏ *Draw a series of circles that get smaller from left to right. If you make a mistake, you can use `reset()` to clear the canvas.***
 
-<img title="" src="images/dacb6abee0c9a1bc835c77ddbe3c3133a2fa3fd4.png" alt="Shrinking_Circles.png" width="446" data-align="center">
+<img title="" src="images/dacb6abee0c9a1bc835c77ddbe3c3133a2fa3fd4.png" alt="Shrinking_Circles.png" width="263" data-align="center"><br />
 
 ## ➡️ Start editing a .py file
 
@@ -123,7 +123,9 @@ So far you've been running one line of code at a time, which is a good way to le
 
 ❏ In the toolbar, go to **File > New File**.
 
-<img title="" src="images/700665ce0b9dffc8716c533cec832d7389a7e9aa.png" alt="Screenshot from 2023-08-25 22-41-34.png" data-align="center" width="509">
+<img title="" src="images/700665ce0b9dffc8716c533cec832d7389a7e9aa.png" alt="Screenshot from 2023-08-25 22-41-34.png" data-align="center" width="509"><br />
+
+<div style="page-break-after: always;"></div>
 
 ❏ A new text editor window will pop up. Type the lines below, then select **Run > Run Module** in the toolbar.
 
@@ -133,23 +135,25 @@ shape('turtle')
 forward(100)
 ```
 
-<img title="" src="images/9ea3eb58cf31c3c8602b66c6f7c8337b8b87891a.png" alt="Screenshot from 2023-08-25 22-43-19.png" data-align="center" width="496">
+<img title="" src="images/9ea3eb58cf31c3c8602b66c6f7c8337b8b87891a.png" alt="Screenshot from 2023-08-25 22-43-19.png" data-align="center" width="496"><br />
 
 ❏ You'll be prompted to save your file before running it. Click **OK**.
 
-<img title="" src="images/191cb09a5570ccd59838f78382786bba4207ed6a.png" alt="Screenshot from 2023-08-25 22-43-27.png" data-align="center" width="245">
+<img title="" src="images/191cb09a5570ccd59838f78382786bba4207ed6a.png" alt="Screenshot from 2023-08-25 22-43-27.png" data-align="center" width="245"><br />
+
+<div style="page-break-after: always;"></div>
 
 ❏ Choose a filename and save your **.py** file somewhere memorable.
 
-<img title="" src="images/b81d85281587d1f090b47c8bda225a16ae6e8a41.png" alt="Screenshot from 2023-08-25 22-44-01.png" data-align="center" width="369">
+<img title="" src="images/b81d85281587d1f090b47c8bda225a16ae6e8a41.png" alt="Screenshot from 2023-08-25 22-44-01.png" data-align="center" width="369"><br />
 
 Once your file is saved, your turtle drawing will get started.
 
-<img title="" src="images/5f5ef33a2226e16a48ebcc6a2ae95a7e34d1166c.png" alt="Screenshot from 2023-08-25 22-44-20.png" width="304" data-align="center">
+<img title="" src="images/5f5ef33a2226e16a48ebcc6a2ae95a7e34d1166c.png" alt="Screenshot from 2023-08-25 22-44-20.png" width="304" data-align="center"><br />
 
 Note that there's some text output in the IDLE shell window where you were typing commands earlier. If you get an error, you can check this window for details.
 
-<img title="" src="images/a403134eee1671952eed384810da22bfdf0df14f.png" alt="Screenshot from 2023-08-25 22-44-33.png" width="380" data-align="center">
+<img title="" src="images/a403134eee1671952eed384810da22bfdf0df14f.png" alt="Screenshot from 2023-08-25 22-44-33.png" width="380" data-align="center"><br />
 
 ## ➡️ Change Colors & Line Width
 
@@ -174,7 +178,7 @@ color('purple')
 circle(200)
 ```
 
-<img title="" src="images/6897270b22a0df540b306465d7149940ea8d9d1d.png" alt="Screenshot from 2023-08-26 00-24-52.png" width="345" data-align="center">
+<img title="" src="images/6897270b22a0df540b306465d7149940ea8d9d1d.png" alt="Screenshot from 2023-08-26 00-24-52.png" width="345" data-align="center"><br />
 
 ❏ Next you'll fill in a shape with color. Start by adding the line `fillcolor('pink')` at the beginning of your code. You can swap in the name of a different color if you prefer. 
 
@@ -192,7 +196,7 @@ circle(200)
 end_fill()
 ```
 
-<img title="" src="images/092c5a9c4d1a38c0aa14af88b668872a91aa4441.png" alt="Screenshot from 2023-08-26 00-25-11.png" width="400" data-align="center">
+<img title="" src="images/092c5a9c4d1a38c0aa14af88b668872a91aa4441.png" alt="Screenshot from 2023-08-26 00-25-11.png" width="400" data-align="center"><br />
 
 ❏ To set the background color for the whole canvas, you can use the `bgcolor()` function.
 
@@ -217,7 +221,9 @@ The first time this loop runs, the variable `i` will have the value `0`. The sec
 
 The code above draws a circle with `50-i` (fifty minus i) as the radius value every time the for loop runs.
 
-<img title="" src="images/bd84f2f54f47e1bdcd041594eca1dbc96271f858.png" alt="Screenshot from 2023-08-26 00-32-40.png" width="400" data-align="center">
+<img title="" src="images/bd84f2f54f47e1bdcd041594eca1dbc96271f858.png" alt="Screenshot from 2023-08-26 00-32-40.png" width="410" data-align="center"><br />
+
+<div style="page-break-after: always;"></div>
 
 ❏ The code below is an update on the for loop above, starting with a radius of 150 and reducing it by `i*5` on each iteration. (In Python, `*` is the multiplication symbol.)
 
@@ -228,7 +234,9 @@ for i in range(25):
     end_fill()
 ```
 
-<img title="" src="images/df82ce36e5a151af806ac8e0f68dc59ce3f8f2ee.png" alt="Screenshot from 2023-08-26 00-37-25.png" width="400" data-align="center">
+<img title="" src="images/df82ce36e5a151af806ac8e0f68dc59ce3f8f2ee.png" alt="Screenshot from 2023-08-26 00-37-25.png" width="410" data-align="center"><br />
+
+<div style="page-break-after: always;"></div>
 
 ### 🐢 Mini challenge
 
@@ -238,7 +246,9 @@ for i in range(25):
 
 **❏** ***Use a for loop to draw the same shape at a range of different angles.***
 
-<img title="" src="images/cfd95b4e813d9b53bd1732ed37844aee93c3cacb.png" alt="Screenshot from 2023-08-26 00-43-05.png" width="400" data-align="center">
+<img title="" src="images/cfd95b4e813d9b53bd1732ed37844aee93c3cacb.png" alt="Screenshot from 2023-08-26 00-43-05.png" width="400" data-align="center"><br />
+
+<div style="page-break-after: always;"></div>
 
 ## ➡️ An Example with Random Numbers
 
@@ -266,7 +276,7 @@ for i in range(70):
         left(90)
 ```
 
-<img title="" src="images/0376a9da7f0495ab7cbaa451187d488730b523da.png" alt="Screenshot from 2023-08-26 01-13-28.png" width="400" data-align="center">
+<img title="" src="images/0376a9da7f0495ab7cbaa451187d488730b523da.png" alt="Screenshot from 2023-08-26 01-13-28.png" width="400" data-align="center"><br />
 
 If you want your turtle to draw faster, You can add the `speed()` function at the beginning of your program. The maximum speed is `9`.
 
@@ -285,6 +295,8 @@ hideturtle()
 In the example below, we start by creating a list of color names and storing it as a variable called `color_list`. In addition to the color names we're using below, you can use hex-formatted colors such as `#01d6ae`.
 
 Later in the code we use `random.choice(color_list)` to select a random color from the list, which is passed to the `fillcolor()` function to set the color of the current shape.
+
+![Screenshot from 2023-08-26 01-17-32.png](images/c6c23690acd2a07db8229dc671c21334834efa16.png)
 
 ```
 from turtle import *
@@ -314,7 +326,9 @@ hideturtle()
 
 The code above uses a for loop to draw each square, starting with the line `for j in range(4):`. Note that this loop is inside another for loop, so the code inside it is double indented.
 
-<img title="" src="images/c6c23690acd2a07db8229dc671c21334834efa16.png" alt="Screenshot from 2023-08-26 01-17-32.png" width="480" data-align="center">
+
+
+<div style="page-break-after: always;"></div>
 
 ## 🐢 More Challenges
 
@@ -341,6 +355,8 @@ The code above uses a for loop to draw each square, starting with the line `for 
 ❏ Draw a randomized night sky with shooting stars
 
 ❏ Draw a tree with random details
+
+<div style="page-break-after: always;"></div>
 
 ## ➡️ Using Python Turtle at Home
 
@@ -377,7 +393,9 @@ Run the command `idle3` and you should be good to go.
 
 Coming soon!
 
-<div style="page-break-after: always;"></div>
+<br/>
+<br/>
+<br/>
 
 **Updated August 26, 2023**
 
