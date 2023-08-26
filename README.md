@@ -147,9 +147,11 @@ Once your file is saved, your turtle drawing will get started.
 
 Note that there's some text output in the IDLE shell window where you were typing commands earlier. If you get an error, you can check this window for details.
 
-<img title="" src="images/a403134eee1671952eed384810da22bfdf0df14f.png" alt="Screenshot from 2023-08-25 22-44-33.png" width="309" data-align="center">
+<img title="" src="images/a403134eee1671952eed384810da22bfdf0df14f.png" alt="Screenshot from 2023-08-25 22-44-33.png" width="380" data-align="center">
 
 ## ➡️ Change Colors & Line Width
+
+Add the line `width(5)` to your code to made your line thicker.
 
 ```
 from turtle import *
@@ -167,6 +169,8 @@ color('purple')
 
 circle(200)
 ```
+
+<img title="" src="images/6897270b22a0df540b306465d7149940ea8d9d1d.png" alt="Screenshot from 2023-08-26 00-24-52.png" width="345" data-align="center">
 
 ```
 from turtle import *
@@ -179,6 +183,8 @@ begin_fill()
 circle(200)
 end_fill()
 ```
+
+<img title="" src="images/092c5a9c4d1a38c0aa14af88b668872a91aa4441.png" alt="Screenshot from 2023-08-26 00-25-11.png" width="369" data-align="center">
 
 ```
 bgcolor('orange')
@@ -193,12 +199,16 @@ for i in range(25):
     end_fill()
 ```
 
+<img title="" src="images/bd84f2f54f47e1bdcd041594eca1dbc96271f858.png" alt="Screenshot from 2023-08-26 00-32-40.png" width="499" data-align="center">
+
 ```
 for i in range(25):
     begin_fill()
     circle(150-(i*5))
     end_fill()
 ```
+
+<img title="" src="images/df82ce36e5a151af806ac8e0f68dc59ce3f8f2ee.png" alt="Screenshot from 2023-08-26 00-37-25.png" width="539" data-align="center">
 
 ### 🐢 Mini challenge
 
@@ -208,15 +218,69 @@ for i in range(25):
 
 **❏** ***Use a for loop to draw repeated shapes at a range of different angles.***
 
+<img title="" src="images/cfd95b4e813d9b53bd1732ed37844aee93c3cacb.png" alt="Screenshot from 2023-08-26 00-43-05.png" width="503" data-align="center">
+
 ## ➡️ An Example with Random Numbers
 
-[random rectangles]
+```
+from turtle import *
+import random
+width(3)
+color('purple')
+bgcolor('lightyellow')
+
+for i in range(70):
+    penup()
+    home()
+    left(random.randint(1,360))
+    forward(random.randint(30,250)
+    pendown()
+    for j in range(4):
+        forward(30)
+        left(90)
+```
+
+<img title="" src="images/0376a9da7f0495ab7cbaa451187d488730b523da.png" alt="Screenshot from 2023-08-26 01-13-28.png" width="594" data-align="center">
+
+```
+speed(9)
+```
+
+abc
+
+```
+hideturtle()
+```
 
 ## ➡️ An Example with Random Colors
 
-[concentric circles]
+```
+from turtle import *
+import random
+width(3)
+color('purple')
+bgcolor('lightyellow')
+speed(9)
 
-## 
+color_list = ['red','orange','yellow','lightgreen','lightblue','violet']
+
+for i in range(70):
+    penup()
+    home()
+    left(random.randint(1,360))
+    forward(random.randint(30,250)
+    pendown()
+    fillcolor(random.choice(color_list))
+    begin_fill()
+    for j in range(4):
+        forward(30)
+        left(90)
+    end_fill()
+
+hideturtle()
+```
+
+<img title="" src="images/c6c23690acd2a07db8229dc671c21334834efa16.png" alt="Screenshot from 2023-08-26 01-17-32.png" width="581" data-align="center">
 
 ## ➡️ More Challenges
 
@@ -236,15 +300,13 @@ for i in range(25):
 
 ❏ Draw a happy robot
 
-❏ Draw a worm
+❏ Draw a happy worm
 
 ❏ Write your name in cursive
 
 ❏ Draw a randomized night sky with shooting stars
 
 ❏ Draw a tree with random details
-
-## ➡️ Read More
 
 ## ➡️ Using Python Turtle at Home
 
@@ -256,12 +318,16 @@ sudo apt-get upgrade
 sudo apt-get install idle
 ```
 
+<div style="page-break-after: always;"></div>
+
 **Updated August 25, 2023**
 
 You can find the latest version of this zine at the following URL: https://github.com/iffybooks/draw-with-code
 
-Follow us on Mastodon!
+Follow Iffy Books on Mastodon!
 
 https://post.lurk.org/@iffybooks
 
-<img title="" src="Back_Cover.png" alt="" width="500">
+<div style="page-break-after: always;"></div>
+
+<img title="" src="Back_Cover.png" alt="" width="500" data-align="center">
