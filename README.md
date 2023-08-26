@@ -180,6 +180,10 @@ circle(200)
 end_fill()
 ```
 
+```
+bgcolor('orange')
+```
+
 ## ➡️ Use a for loop
 
 ```
