@@ -405,4 +405,10 @@ Follow Iffy Books on Mastodon!
 
 https://post.lurk.org/@iffybooks
 
+Make a one-time or recurring donation to Iffy Books:
+
+https://iffybooks.net/donate
+
+❤️ Thank you!
+
 <div style="page-break-after: always;"></div>
