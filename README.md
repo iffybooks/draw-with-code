@@ -1,6 +1,6 @@
-![](Front_Cover.png)
+<img title="" src="Front_Cover.png" alt="" width="500">
 
-# Python Turtle is a drawing tool based on Logo, a programming language developed in the 1960s to teach programming to kids. Logo was used widely in school computer labs in the '80s and '90s.
+# Python Turtle is a drawing tool based on Logo, an educational programming language developed in the 1960s. Logo was used widely in school computer labs in the '80s and '90s.
 
 Here's how it works: The user types lines of code to control a cursor onscreen, typically represented as a turtle. The turtle can draw lines and curves as it walks around, creating geometric art. The next step is to add a loop to your code, letting you repeat the instructions as many times as you want.
 
@@ -26,9 +26,9 @@ idle
 
 ↳ If you're using macOS, you may need to use the command `idle3`instead.
 
-[Image of IDLE open]
+<img title="" src="images/e8dd325904a00f351cb85346aaf8b84f38dcc15c.png" alt="Screenshot from 2023-08-25 21-41-55.png" width="465" data-align="center">
 
-## ➡️ First Steps
+## ➡ First Steps
 
 ❏ In the Idle command prompt, type the following command and press **enter**. Nothing will happen, which is normal. You've just imported a collection of tools from the `turtle` module.
 
@@ -36,11 +36,15 @@ idle
 from turtle import *
 ```
 
+![](images/2023-08-25-23-43-05-image.png)
+
 ❏ Type the command below and press **enter**. You'll see a window pop up with a tiny turtle on a white background.
 
 ```
 shape('turtle')
 ```
+
+![Screenshot from 2023-08-25 21-42-33.png](images/4f6cd67c08d9fefc947bfde84e4684e321e6b6b7.png)
 
 ❏ Run this command to make the turtle walk forward 100 steps, leaving a line behind it:
 
@@ -66,19 +70,23 @@ forward(100)
 reset()
 ```
 
-### 🐢 Mini challenge 1
+### 🔎 What will happen?
 
-**❏ *Draw a square.***
+❏ Try using `right(90)` and `back(100)` and see what happens. Now try `right(360)` and `back(600)`.
 
-### 🐢 Mini challenge 2
+### 🐢 Mini challenge
+
+**❏ *Drawing a square or rectangle.***
+
+### 🐢 Mini challenge
 
 **❏ *Draw an equilateral triangle (all three sides the same length).***
 
-If you're at an in-person workshop and you need help, try asking the person next to you.
+ 
 
 ## ➡️ Pen Up and Pen Down
 
-So far your turtle has been in **pen down** mode, which means it draws a line wherever it goes. Next you'll learn to toggle between **pen up** and **pen down** modes, as well as how to draw **circles**.
+So far your turtle has been in **pen down** mode, which means it draws a line wherever it goes. Next you'll learn to use **pen up** mode to move around without leaving a mark. You'll also learn to draw **circles**.
 
 ❏ Run the `reset()` command to clear the canvas.
 
@@ -92,7 +100,7 @@ reset()
 circle(30)
 ```
 
-❏ Now run the following commands one at a time and watch what happens. The `penup()` function 
+❏ Now run the following commands one at a time and watch what happens:
 
 ```
 penup()
@@ -101,19 +109,35 @@ pendown()
 circle(50)
 ```
 
-❏ 
-
 ### 🐢 Mini challenge
 
-**❏ *Make a silly robot face.***
+**❏ *Draw a series of shrinking circles. If you make a mistake, you can use `reset()` to clear the canvas.***
 
-
+<img title="" src="images/dacb6abee0c9a1bc835c77ddbe3c3133a2fa3fd4.png" alt="Shrinking_Circles.png" width="446" data-align="center">
 
 ## ➡️ Switch to text editor
 
-## ➡️ Add color
+So far you've been running one line of code at a time, which is a good way to learn the basics. In order to write a block of code and run it all at once, you'll need to create a file. 
 
-Switch to idle
+❏ In the toolbar, go to **File > New File**.
+
+![Screenshot from 2023-08-25 22-41-34.png](images/700665ce0b9dffc8716c533cec832d7389a7e9aa.png)
+
+![Screenshot from 2023-08-25 22-41-48.png](images/bb3bf5fc24caf634353fa09a68996afea73e3781.png)
+
+![Screenshot from 2023-08-25 22-42-22.png](images/25f050789ff26af532265df87fbc6ace9d4a6cea.png)
+
+![Screenshot from 2023-08-25 22-43-19.png](images/9ea3eb58cf31c3c8602b66c6f7c8337b8b87891a.png)
+
+![Screenshot from 2023-08-25 22-43-27.png](images/191cb09a5570ccd59838f78382786bba4207ed6a.png)
+
+![Screenshot from 2023-08-25 22-44-01.png](images/b81d85281587d1f090b47c8bda225a16ae6e8a41.png)
+
+![Screenshot from 2023-08-25 22-44-20.png](images/5f5ef33a2226e16a48ebcc6a2ae95a7e34d1166c.png)
+
+![Screenshot from 2023-08-25 22-44-33.png](images/a403134eee1671952eed384810da22bfdf0df14f.png)
+
+## ➡️ Change Colors & Line Width
 
 - set width
 
@@ -121,17 +145,23 @@ Switch to idle
 
 Redraw the same shapes, but adjust thickness and color them in
 
+## ➡️ Loop
+
 Use a loop to draw 20ish squares overlapping in a circular pattern
-
-Draw a rectangle with random sizes
-
-Draw 20 random rectangles
 
 Choose random colors for rectangles
 
-Make a rectangular gradient spiral
+## ➡️ An Example with Random Numbers
 
-➡️ Mathy Challenges
+[random rectangles]
+
+## ➡️ An Example with Random Colors
+
+[concentric circles]
+
+## ➡️ Read More
+
+## ➡️ More Challenges
 
 Draw a pentagon
 
@@ -145,21 +175,19 @@ Draw a flower
 
 Draw a flower with n petals
 
-➡️ Arty Challenges
-
 Draw a house
 
-Draw a dancing robot
+Draw a happy robot
 
 Write your name in cursive
 
-Draw a yellow banana
+Draw a worm
 
 Draw a randomized night sky with shooting stars
 
-Draw a tree with a random shape
+Draw a tree with random details
 
-## Using Python Turtle at Home
+## ➡️ Using Python Turtle at Home
 
 Ubuntu setup steps:
 
@@ -169,6 +197,10 @@ sudo apt-get upgrade
 sudo apt-get install idle
 ```
 
-Updated August 22, 2023
+**Updated August 25, 2023**
 
-![](Back_Cover.png)
+Follow us on Mastodon!
+
+https://post.lurk.org/@iffybooks
+
+<img title="" src="Back_Cover.png" alt="" width="500">
