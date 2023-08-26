@@ -1,5 +1,3 @@
-<img title="" src="Front_Cover.png" alt="" width="500">
-
 # Python Turtle is a drawing tool based on Logo, an educational programming language developed in the 1960s. Logo was used widely in school computer labs in the '80s and '90s.
 
 Here's how it works: The user types lines of code to control a cursor onscreen, typically represented as a turtle. The turtle can draw lines and curves as it walks around, creating geometric art. The next step is to add a loop to your code, letting you repeat the instructions as many times as you want.
@@ -11,6 +9,8 @@ In this workshop we'll be focusing on **turtle**, a module that comes built-in w
 We'll also use **IDLE**, a program that lets you write and run Python code.
 
 At the Iffy Books computer lab we're using the Linux-based operating system **Ubuntu**. If you're getting started on your home computer, skip ahead to the section titled **<u>Using Python Turtle at Home</u>**. Once **Python 3**, **IDLE**, and **Tkinter** are installed, you can resume here.
+
+<div style="page-break-after: always;"></div>
 
 ## ➡️ Open IDLE
 
@@ -384,5 +384,3 @@ Follow Iffy Books on Mastodon!
 https://post.lurk.org/@iffybooks
 
 <div style="page-break-after: always;"></div>
-
-<img title="" src="Back_Cover.png" alt="" width="500" data-align="center">
