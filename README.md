@@ -151,7 +151,7 @@ Note that there's some text output in the IDLE shell window where you were typin
 
 ## ➡️ Change Colors & Line Width
 
-Add the line `width(5)` to your code to made your line thicker.
+❏ Add the line `width(5)` to your code to make your line thicker. Go to **Run > Run Module** in the toolbar or press **F5** to run your code.
 
 ```
 from turtle import *
@@ -160,6 +160,8 @@ width(5)
 
 circle(200)
 ```
+
+❏ Now add the line `color('purple')` to make the line purple. Go to **Run > Run Module** in the toolbar or press **F5** to run your code.
 
 ```
 from turtle import *
@@ -171,6 +173,10 @@ circle(200)
 ```
 
 <img title="" src="images/6897270b22a0df540b306465d7149940ea8d9d1d.png" alt="Screenshot from 2023-08-26 00-24-52.png" width="345" data-align="center">
+
+❏ Next you'll fill in a shape with color. Start by adding the line `fillcolor('pink')` at the beginning of your code. You can swap in the name of a different color if you prefer. 
+
+❏ Next, add the lines `begin_fill()` and `end_fill()` at the beginning and end of drawing a shape. Go to **Run > Run Module** in the toolbar or press **F5** to run your code.
 
 ```
 from turtle import *
@@ -186,11 +192,17 @@ end_fill()
 
 <img title="" src="images/092c5a9c4d1a38c0aa14af88b668872a91aa4441.png" alt="Screenshot from 2023-08-26 00-25-11.png" width="369" data-align="center">
 
+❏ To set the background color, you can use the `bgcolor()` function.
+
 ```
 bgcolor('orange')
 ```
 
 ## ➡️ Use a for loop
+
+You can use a **for loop** to run the same piece of code as many times as you want.
+
+Here's what a for loop looks like in Python. The indented lines are inside the loop, and `range(25)` means they'll run 25 times. 
 
 ```
 for i in range(25):
@@ -199,7 +211,11 @@ for i in range(25):
     end_fill()
 ```
 
+The first time the loop runs, the variable `i` represents the number `0`. The second time it runs, `i` will be `2`, and so on. The code above draws a circle with radius `50-i` on each iteration, producing smaller and smaller circles.
+
 <img title="" src="images/bd84f2f54f47e1bdcd041594eca1dbc96271f858.png" alt="Screenshot from 2023-08-26 00-32-40.png" width="499" data-align="center">
+
+❏ The code below is an update on the for loop above, starting with a radius of 150 and reducing the radius by `i*5` each iteration. (In Python, `*` is the multiplication symbol.)
 
 ```
 for i in range(25):
@@ -216,11 +232,17 @@ for i in range(25):
 
 ### 🐢 Mini challenge
 
-**❏** ***Use a for loop to draw repeated shapes at a range of different angles.***
+**❏** ***Use a for loop to draw the same shape at a range of different angles.***
 
 <img title="" src="images/cfd95b4e813d9b53bd1732ed37844aee93c3cacb.png" alt="Screenshot from 2023-08-26 00-43-05.png" width="503" data-align="center">
 
 ## ➡️ An Example with Random Numbers
+
+❏ If you want to use random numbers in your Python Turtle code, you'll need to include the line `import random` near the beginning.
+
+The method `random.randint(1,360)` will return a random integer from 1 to 360, inclusive. You can put the whole function between the parentheses of a `left()` or `right()` function to choose an angle at random.
+
+The code below also uses the `home()` function to return the turtle to its original position without erasing the drawing.
 
 ```
 from turtle import *
@@ -233,26 +255,32 @@ for i in range(70):
     penup()
     home()
     left(random.randint(1,360))
-    forward(random.randint(30,250)
+    forward(random.randint(30,250))
     pendown()
     for j in range(4):
         forward(30)
         left(90)
 ```
 
-<img title="" src="images/0376a9da7f0495ab7cbaa451187d488730b523da.png" alt="Screenshot from 2023-08-26 01-13-28.png" width="594" data-align="center">
+<img title="" src="images/0376a9da7f0495ab7cbaa451187d488730b523da.png" alt="Screenshot from 2023-08-26 01-13-28.png" width="506" data-align="center">
+
+If you want your turtle to draw faster, You can add the `speed()` function at the beginning of your program. The maximum speed is `9`.
 
 ```
 speed(9)
 ```
 
-abc
+To hide your turtle cursor so you can get a clean screenshot, use the `hideturtle()` function.
 
 ```
 hideturtle()
 ```
 
 ## ➡️ An Example with Random Colors
+
+In the example below, we start by creating a list of color names and storing it as a variable called `color_list`. In addition to the color names we're using below, you can use hex-formatted colors such as `#01d6ae`.
+
+Later in the code we use `random.choice(color_list)` to select a random color from the list, which is passed to the `fillcolor()` function to set the color of the current shape.
 
 ```
 from turtle import *
@@ -280,9 +308,17 @@ for i in range(70):
 hideturtle()
 ```
 
+The code above uses a for loop to draw each square, starting with the line `for j in range(4):`. Note that this loop is inside another for loop, so the code inside it is double indented.
+
 <img title="" src="images/c6c23690acd2a07db8229dc671c21334834efa16.png" alt="Screenshot from 2023-08-26 01-17-32.png" width="581" data-align="center">
 
-## ➡️ More Challenges
+## 🐢 More Challenges
+
+❏ Draw a house
+
+❏ Draw a happy robot
+
+❏ Draw a worm
 
 ❏ Draw a pentagon
 
@@ -296,12 +332,6 @@ hideturtle()
 
 ❏ Draw a flower with n petals
 
-❏ Draw a house
-
-❏ Draw a happy robot
-
-❏ Draw a happy worm
-
 ❏ Write your name in cursive
 
 ❏ Draw a randomized night sky with shooting stars
@@ -310,13 +340,38 @@ hideturtle()
 
 ## ➡️ Using Python Turtle at Home
 
-Ubuntu setup steps:
+***Ubuntu instructions***
+
+If you're using Ubuntu or a similar Debian-based Linux distro, run the following commands to install IDLE:
 
 ```
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install idle
 ```
+
+If you're using an older version of Ubuntu, you may also need to install the tkinter Python package:
+
+```
+sudo apt-get install python3-tk
+```
+
+***macOS instructions***
+
+On Mac, open a terminal window and run `idle3` to see if IDLE is installed. 
+
+If it isn't available, go to [https://brew.sh](https://brew.sh) and follow the instructions to install Homebrew. Then run the following commands to install Python3 and Tkinter:
+
+```
+brew install python3
+brew install tkinter
+```
+
+Run the command `idle3` and you should be good to go.
+
+***Windows instructions***
+
+Coming soon!
 
 <div style="page-break-after: always;"></div>
 
