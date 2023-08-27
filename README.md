@@ -409,6 +409,6 @@ Make a one-time or recurring donation:
 
 https://iffybooks.net/donate
 
-❤️ Thank you!
+♥️ Thank you!
 
 <div style="page-break-after: always;"></div>
