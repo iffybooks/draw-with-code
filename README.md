@@ -10,7 +10,7 @@ We'll also use **IDLE**, a program that lets you write and run Python code.
 
 At the Iffy Books computer lab we're using the Linux-based operating system **Ubuntu**. If you're getting started on your home computer, skip ahead to the section titled **<u>Using Python Turtle at Home</u>**. Once **Python 3**, **IDLE**, and **Tkinter** are installed, you can resume here.
 
-## ➡️ Open IDLE
+## ▶ Open IDLE
 
 ❏ Start by opening the **terminal** application. Click the grid icon at the bottom left corner of the screen and search for "terminal," or click the terminal icon in the application bar.
 
@@ -84,7 +84,7 @@ reset()
 
 **❏ *Draw an equilateral triangle (all three sides the same length).***
 
-## ➡️ Pen Up and Pen Down
+## ▶ Pen Up and Pen Down
 
 So far your turtle has been in **pen down** mode, which means it draws a line wherever it goes. Next you'll learn to use **pen up** mode to move around without leaving a mark. You'll also learn to draw **circles**.
 
@@ -117,7 +117,7 @@ circle(50)
 
 <img title="" src="images/dacb6abee0c9a1bc835c77ddbe3c3133a2fa3fd4.png" alt="Shrinking_Circles.png" width="263" data-align="center"><br />
 
-## ➡️ Start editing a .py file
+## ▶ Start editing a .py file
 
 So far you've been running one line of code at a time, which is a good way to learn the basics. The next step is to write several lines of code and run them all at once. To do that, you'll need to store your code in a **.py** file.
 
@@ -127,13 +127,15 @@ So far you've been running one line of code at a time, which is a good way to le
 
 <div style="page-break-after: always;"></div>
 
-❏ A new text editor window will pop up. Type the lines below, then select **Run > Run Module** in the toolbar.
+❏ A new text editor window will pop up. Type the lines below.
 
 ```
 from turtle import *
 shape('turtle')
 forward(100)
 ```
+
+❏ Go to **Run > Run Module** in the toolbar.
 
 <img title="" src="images/9ea3eb58cf31c3c8602b66c6f7c8337b8b87891a.png" alt="Screenshot from 2023-08-25 22-43-19.png" data-align="center" width="496"><br />
 
@@ -155,7 +157,7 @@ Note that there's some text output in the IDLE shell window where you were typin
 
 <img title="" src="images/a403134eee1671952eed384810da22bfdf0df14f.png" alt="Screenshot from 2023-08-25 22-44-33.png" width="380" data-align="center"><br />
 
-## ➡️ Change Colors & Line Width
+## ▶ Change Colors & Line Width
 
 ❏ Add the line `width(5)` to your code to make your line thicker. Go to **Run > Run Module** in the toolbar or press **F5** to run your code.
 
@@ -204,7 +206,7 @@ end_fill()
 bgcolor('orange')
 ```
 
-## ➡️ Use a for loop
+## ▶ Use a for loop
 
 You can use a **for loop** to run the same piece of code as many times as you want.
 
@@ -225,7 +227,7 @@ The code above draws a circle with `50-i` (fifty minus i) as the radius value ev
 
 <div style="page-break-after: always;"></div>
 
-❏ The code below is an update on the for loop above, starting with a radius of 150 and reducing it by `i*5` on each iteration. (In Python, `*` is the multiplication symbol.)
+❏ The code below is an update on the previous for loop, starting with a radius of 150 and reducing it by `i*5` on each iteration. (In Python, `*` is the multiplication symbol.)
 
 ```
 for i in range(25):
@@ -250,7 +252,7 @@ for i in range(25):
 
 <div style="page-break-after: always;"></div>
 
-## ➡️ An Example with Random Numbers
+## ▶ An Example with Random Numbers
 
 ❏ If you want to use random numbers in your Python Turtle code, you'll need to include the line `import random` near the beginning.
 
@@ -290,7 +292,7 @@ To hide your turtle cursor so you can get a clean screenshot, use the `hideturtl
 hideturtle()
 ```
 
-## ➡️ An Example with Random Colors
+## ▶ An Example with Random Colors
 
 In the example below, we start by creating a list of color names and storing it as a variable called `color_list`. In addition to the color names we're using below, you can use hex-formatted colors such as `#01d6ae`.
 
@@ -326,8 +328,6 @@ hideturtle()
 
 The code above uses a for loop to draw each square, starting with the line `for j in range(4):`. Note that this loop is inside another for loop, so the code inside it is double indented.
 
-
-
 <div style="page-break-after: always;"></div>
 
 ## 🐢 More Challenges
@@ -358,7 +358,7 @@ The code above uses a for loop to draw each square, starting with the line `for 
 
 <div style="page-break-after: always;"></div>
 
-## ➡️ Using Python Turtle at Home
+## ▶ Using Python Turtle at Home
 
 ***Ubuntu instructions***
 
@@ -397,7 +397,7 @@ Coming soon!
 <br/>
 <br/>
 
-**Updated August 26, 2023**
+**Updated August 27, 2023**
 
 You can find the latest version of this zine at the following URL: https://github.com/iffybooks/draw-with-code
 
@@ -405,7 +405,7 @@ Follow Iffy Books on Mastodon!
 
 https://post.lurk.org/@iffybooks
 
-Make a one-time or recurring donation to Iffy Books:
+Make a one-time or recurring donation:
 
 https://iffybooks.net/donate
 
